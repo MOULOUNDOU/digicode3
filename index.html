@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGI-CODE | Développement Web & Technologie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo-title">
+                <img src="images/digicode.jpg" alt="Logo DIGI-CODE" class="logo">
+                <h1>DIGI-CODE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero scroll-animate">
+        <div class="container">
+            <h2>Développement Web & Technologie</h2>
+            <p>Vos produits digitaux au meilleur prix !</p>
+            <a href="#produits" class="cta-btn">Voir les offres</a>
+        </div>
+    </section>
+    <section id="produits" class="produits scroll-animate">
+        <div class="container">
+            <h2>Nos Produits</h2>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <!-- Les items du carousel seront générés dynamiquement en JS -->
+                </div>
+                <div class="carousel-dots"></div>
+                <button class="carousel-nav left" aria-label="Précédent">&#10094;</button>
+                <button class="carousel-nav right" aria-label="Suivant">&#10095;</button>
+            </div>
+            <div class="produits-list">
+                <div class="produit-card scroll-animate">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04zZ2t-g43XeKEa2ZRJTQDcN6fCEW0mqfCA&s" alt="CapCut Pro" class="produit-img">
+                    <h3>CapCut Pro Abonnement à vie</h3>
+                    <p class="prix">1000 F</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('CapCut Pro')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('CapCut Pro')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://img.freepik.com/vecteurs-libre/modele-affiche-degrade-entreprise_23-2148885390.jpg" alt="Création affiche publicitaire" class="produit-img">
+                    <h3>Création affiche publicitaire</h3>
+                    <p class="prix">Contactez-nous</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Création affiche publicitaire')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Création affiche publicitaire')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://ndah.blog/wp-content/uploads/2025/02/canva-pro.webp" alt="Canva Pro" class="produit-img">
+                    <h3>Canva Pro Abonnement à vie</h3>
+                    <p class="prix">1000 F</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Canva Pro')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Canva Pro')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/0c/f0/bf0cf008-e0b9-3f5a-d39d-db494c9e033d/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-sRGB-0-85-220.png/1200x630wa.png" alt="Netflix" class="produit-img">
+                    <h3>Abonnement Netflix</h3>
+                    <p class="prix">Contactez-nous</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Netflix')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Netflix')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://www.allaboutai.com/wp-content/uploads/2025/01/ChatGPT-Pros-Costly-Model-Fails-to-Cover-OpenAI-Expenses-Says-Altman.png" alt="ChatGPT" class="produit-img">
+                    <h3>Abonnement ChatGPT</h3>
+                    <p class="prix">Contactez-nous</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('ChatGPT')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('ChatGPT')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_JJRg3E_8Wb9Mooj78BRLkxFfTypdlSfi7g&s" alt="Microsoft Office" class="produit-img">
+                    <h3>Microsoft Office à vie</h3>
+                    <p class="prix">Fichier d'activation 2000F</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Microsoft Office')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Microsoft Office')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://seniordev-group.com/wp-content/uploads/2022/07/outils_web.png" alt="Formation Développement Web" class="produit-img">
+                    <h3>Formation Développement Web</h3>
+                    <p class="prix">Contactez-nous</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Formation Développement Web')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Formation Développement Web')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://www.ispring.fr/blog/wp-content/uploads/editor/2025/02/blobid12-1739352060.jpg" alt="Pack Présentation PowerPoint" class="produit-img">
+                    <h3>Pack Présentation PowerPoint</h3>
+                    <p class="prix">1000 présentations disponibles</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Pack PowerPoint')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Pack PowerPoint')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://s3.amazonaws.com/thumbnails.venngage.com/template/432ded33-c178-4781-86de-5a39a93d2a7c.png" alt="Création CV Pro" class="produit-img">
+                    <h3>Création CV Professionnel & responsif</h3>
+                    <p class="prix">1000 F</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Création CV Pro')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Création CV Pro')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://nugg.ad/wp-content/uploads/2025/04/developeur-web-full-stack-1024x574.png.webp" alt="Pack vidéo formation développeur" class="produit-img">
+                    <h3>Pack vidéo formation développeur</h3>
+                    <p class="prix">+200 videos et fichier PDF 3000 F</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Pack vidéo formation développeur')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Pack vidéo formation développeur')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://www.aubicom.net/wp-content/uploads/2021/04/Importance-site-web-UBICOM.png" alt="Création site web" class="produit-img">
+                    <h3>Création sites web dysnamiques et responsifs</h3>
+                    <p class="prix">Contactez-nous</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Création site web')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Création site web')">Payer ici</button>
+                    </div>
+                </div>
+                <div class="produit-card scroll-animate">
+                    <img src="https://www.pngmart.com/files/21/Ads-PNG-Isolated-Image.png" alt="Formation Facebook Ads" class="produit-img">
+                    <h3>Formation Facebook Ads</h3>
+                    <p class="prix">Aprendre comment booster vos publicités</p>
+                    <div class="btns-flex">
+                        <button onclick="acheter('Formation Facebook Ads')">WhatsApp</button>
+                        <button onclick="ouvrirPaiement('Formation Facebook Ads')">Payer ici</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about scroll-animate">
+        <div class="container">
+            <h2>À propos de DIGI-CODE</h2>
+            <p>Nous sommes spécialisés dans la vente de produits digitaux et le développement web. Profitez de nos offres exclusives et de notre expertise pour booster votre productivité !</p>
+        </div>
+    </section>
+    <section id="contact" class="contact scroll-animate">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form id="contactForm">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/16N1jUVCPX/?mibextid=wwXIfr" title="Facebook" target="_blank"><img src="https://www.presse-citron.net/resize/w0/NqWbaL8XFTW4e3rD1fhHNGpItQRBIYpq6MLVPIkZ.png" alt="Facebook"></a>
+                <a href="#" title="TikTok" target="_blank"><img src="https://static.vecteezy.com/ti/vecteur-libre/p1/6057996-logo-tiktok-sur-fond-transparent-gratuit-vectoriel.jpg" alt="TikTok"></a>
+                <a href="wa.me/221777269484" title="WhatsApp" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/WhatsApp_Logo_green.svg" alt="WhatsApp"></a>
+                <a href="#" title="YouTube" target="_blank"><img src="https://media.graphiline.com/src/images/news/articles/ima-image-26441.jpg" alt="YouTube"></a>
+                <a href="#" title="Telegram" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png" alt="Telegram"></a>
+            </div>
+            <p>&copy; 2025 DIGI-CODE. Tous droits réservés.</p>
+            <p>admin MOULOUNDOU KIMBASSA MARDOCHE</p>
+        </div>
+    </footer>
+    <div id="modalPaiement" class="modal-paiement">
+        <div class="modal-content">
+            <span class="close-modal" onclick="fermerPaiement()">&times;</span>
+            <h2>Paiement par Mobile</h2>
+            <p id="produitPaiement"></p>
+            <ul>
+                <li><strong>Sénégal & Côte d'Ivoire (Wave/Orange Money) :</strong><br> <span class="numero">+221 77 726 94 84</span></li>
+                <li><strong>Congo-Brazzaville (Airtel Money) :</strong><br> <span class="numero">+242 056107373</span></li>
+                <li><strong>Congo-Kinshasa (Mepsa) :</strong><br> <span class="numero">+243 832 176 484</span></li>
+            </ul>
+            <p>Après paiement, envoyez la preuve (screenshot ou numéro de transaction) sur WhatsApp : <a href="https://wa.me/221777269484" target="_blank">+221 77 726 94 84</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
